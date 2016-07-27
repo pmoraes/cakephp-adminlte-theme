@@ -193,6 +193,15 @@ class FormHelper extends CakeFormHelper {
         return parent::dateTime($fieldName, $options);
     }
 
+    public function datePicker($fieldName, array $options = [])
+    {
+        $options += [
+            'class' => 'datepicker'
+        ];
+
+        return parent::input($fieldName, $options);
+    }
+
     protected function _injectStyles($options, $styles) {
         $options += ['class' => [], 'skip' => []];
         if (!is_array($options['class'])) {
