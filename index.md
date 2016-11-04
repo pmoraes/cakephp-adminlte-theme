@@ -16,6 +16,7 @@ composer require maiconpinto/cakephp-adminlte-theme
 ### Enable Plugin
 
 ```php
+<?php
 // config/bootstrap.php
 
 Plugin::load('AdminLTE', ['bootstrap' => true, 'routes' => true]);
@@ -24,6 +25,7 @@ Plugin::load('AdminLTE', ['bootstrap' => true, 'routes' => true]);
 ### Enable theme
 
 ```php
+<?php
 // src/Controller/AppController.php
 
 public function beforeRender(Event $event)
@@ -35,6 +37,7 @@ public function beforeRender(Event $event)
 ### Enable Form
 
 ```php
+<?php
 // src/View/AppView.php
 
 public function initialize()
@@ -46,7 +49,9 @@ public function initialize()
 ### Configure
 
 ```php
+<?php
 // src/Controller/AppController.php
+
 use Cake\Core\Configure;
 
 public function beforeRender(Event $event)
@@ -57,6 +62,7 @@ public function beforeRender(Event $event)
 ```
 
 ```php
+<?php
 // To customize configuration paste it at end of file config/bootstrap.php
 
 Configure::write('Theme', [
