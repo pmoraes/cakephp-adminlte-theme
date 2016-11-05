@@ -5,7 +5,7 @@ layout: default
 
 # CakePHP AdminLTE Theme
 
-## Installation
+## [Installation](/installation)
 
 You can install using [composer](http://getcomposer.org).
 
@@ -13,7 +13,7 @@ You can install using [composer](http://getcomposer.org).
 composer require maiconpinto/cakephp-adminlte-theme
 ```
 
-### Enable Plugin
+### [Enable Plugin](/enable-plugin)
 
 ```php
 <?php
@@ -22,7 +22,7 @@ composer require maiconpinto/cakephp-adminlte-theme
 Plugin::load('AdminLTE', ['bootstrap' => true, 'routes' => true]);
 ```
 
-### Enable theme
+### [Enable theme](/enable-theme)
 
 ```php
 <?php
@@ -34,7 +34,7 @@ public function beforeRender(Event $event)
 }
 ```
 
-### Enable Form
+### [Enable Form](/enable-form)
 
 ```php
 <?php
@@ -46,7 +46,7 @@ public function initialize()
 }
 ```
 
-### Configure
+### [Configure](/configure)
 
 ```php
 <?php
@@ -80,7 +80,7 @@ Configure::write('Theme', [
 ]);
 ```
 
-### Customize Layout
+### [Customize Layout](/customize-layout)
 
 Replace the files according to the image.
 
@@ -94,13 +94,13 @@ Replace the files according to the image.
 6. `src/Template/Element/aside-control-sidebar.ctp`
 7. `src/Template/Element/footer.ctp`
 
-### Page debug
+### [Page debug](/page-debug)
 
 Added link to default page of CakePHP.
 
 ![Page debug](images/page-debug.png)
 
-## Contributing
+## [Contributing](/contributing)
 
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
