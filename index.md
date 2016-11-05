@@ -75,7 +75,8 @@ Configure::write('Theme', [
         'show_remember' => true,
         'show_register' => true,
         'show_social' => true
-    ]
+    ],
+    'folder' => ROOT
 ]);
 ```
 
