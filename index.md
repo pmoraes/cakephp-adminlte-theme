@@ -13,7 +13,7 @@ You can install using [composer](http://getcomposer.org).
 composer require maiconpinto/cakephp-adminlte-theme
 ```
 
-### [Enable Plugin](/enable-plugin)
+### [Enable Plugin](enable-plugin)
 
 ```php
 <?php
