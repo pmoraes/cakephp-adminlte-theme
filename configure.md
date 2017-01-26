@@ -2,7 +2,7 @@
 layout: page
 ---
 
-#Configure 
+# Configure 
 
 ```php
 <?php
