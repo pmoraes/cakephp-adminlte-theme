@@ -32,6 +32,8 @@ Configure::write('Theme', [
         'show_register' => true,
         'show_social' => true
     ],
-    'folder' => ROOT
+    'folder' => ROOT,
+    'skin' => 'blue' // blue-light, yellow, yellow-light, green, green-light, purple, purple-light, red, red-light, black, black-light
+    
 ]);
 ```
