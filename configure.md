@@ -2,8 +2,6 @@
 layout: page
 ---
 
-# Configure
-
 ```php
 <?php
 // src/Controller/AppController.php
@@ -33,7 +31,24 @@ Configure::write('Theme', [
         'show_social' => true
     ],
     'folder' => ROOT,
-    'skin' => 'blue' // blue-light, yellow, yellow-light, green, green-light, purple, purple-light, red, red-light, black, black-light
+    'skin' => 'blue'
     
 ]);
 ```
+
+## Skins (options)
+
+- blue
+- blue-light
+- yellow
+- yellow-light
+- green
+- green-light
+- purple
+- purple-light
+- red
+- red-light
+- black
+- black-light
+
+*Default is blue*
